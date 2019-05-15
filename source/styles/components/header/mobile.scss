@@ -1,3 +1,154 @@
+@import 'palette.scss';
+
 .header {
-    // background: yellow;
+    height: 100%;
+
+    .banner {
+        position: relative;
+        height: 424px;
+
+        .nav {
+            position: absolute;
+            left: 13%;
+            width: 75%;
+            height: 100%;
+            background-color: #FF4242;
+
+            h1 {
+                position: absolute;
+                top: 25px;
+                left: 24px;
+                padding: 3px 8px;
+                border: 3.5px $color_background solid;
+                color: $color_background;
+                font-family: 'Montserrat';
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            h2 {
+                position: absolute;
+                top: 30px;
+                left: 68px;
+                color: $color_background;
+                font-family: 'Montserrat';
+                font-size: 14.45px;
+                font-weight: 600;
+                letter-spacing: -0.4px;
+            }
+
+            h3 {
+                position: absolute;
+                top: 120px;
+                left: 32px;
+                padding: 5px 10px;
+                background-color: $color_2;
+                color: $color_background;
+                font-family: 'Montserrat';
+                font-size: 10px;
+            }
+
+            h4 {
+                position: absolute;
+                top: 142px;
+                left: 35px;
+                color: $color_background;
+                font-family: 'Montserrat';
+                font-size: 22px;
+                font-weight: 700;
+                letter-spacing: -0.7px;
+                line-height: 26px;
+
+                span {
+                    font-size: 25px;
+                }
+            }
+
+            .line {
+                position: absolute;
+                left: 34px;
+                width: 75%;
+                height: 1px;
+                opacity: 0.3;
+                background-color: $color_background;
+            }
+
+            .line1 {
+                top: 208px;
+            }
+
+            .line2 {
+                top: 284px;
+            }
+
+            h5 {
+                position: absolute;
+                top: 225px;
+                left: 34px;
+                color: $color_background;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                letter-spacing: -0.3px;
+                line-height: 20px;
+            }
+
+            .arrow {
+                position: absolute;
+                top: 306px;
+                left: 33px;
+            }
+
+            h6 {
+                position: absolute;
+                top: 302px;
+                left: 62px;
+                color: $color_background;
+                font-family: 'Montserrat';
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+                line-height: 26px;
+            }
+
+            .icons {
+                display: flex;
+                position: absolute;
+                bottom: 0px;
+                left: 50%;
+                transform: translateX(-50%);
+
+                img {
+                    height: 100%;
+                    padding: 10px 11px;
+                    border: 1px rgba($color: $color_background, $alpha: 0.3) solid;
+
+                    &:first-child {
+                        padding: 12px 11px;
+                    }
+                }
+            }
+        }
+
+        a {
+            position: absolute;
+            top: 16px;
+            right: 12%;
+            padding: 13px 17px;
+            border: solid $color_2 2px;
+            background-color: $color_2;
+        }
+    }
+
+    .bottom-bar {
+        height: 65px;
+        background-color: $color_2;
+
+        .right {
+            display: none;
+        }
+
+        .left {
+            display: none;
+        }
+    }
 }
