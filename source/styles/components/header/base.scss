@@ -1,67 +1,67 @@
-@import 'palette.scss';
+// @import 'palette.scss';
 
-.header {
+// .header {
 
-    .banner {
-        background-color: $color_background;
+//     .banner {
+//         background-color: $color_background;
 
-        .nav {
-            background-color: $color_1;
+//         .nav {
+//             background-color: $color_1;
 
-            h1 {
-                // border: 3.5px $color_background solid;
-                color: $color_background;
-                font-family: 'Montserrat';
-            }
+//             h1 {
+//                 // border: 3.5px $color_background solid;
+//                 color: $color_background;
+//                 font-family: 'Montserrat';
+//             }
 
-            h2 {
-                color: $color_background;
-                font-family: 'Montserrat';
-            }
+//             h2 {
+//                 color: $color_background;
+//                 font-family: 'Montserrat';
+//             }
 
-            h3 {
-                background-color: $color_2;
-                color: $color_background;
-                font-family: 'Montserrat';
-            }
+//             h3 {
+//                 background-color: $color_2;
+//                 color: $color_background;
+//                 font-family: 'Montserrat';
+//             }
 
-            h4 {
-                color: $color_background;
-                font-family: 'Montserrat';
-            }
+//             h4 {
+//                 color: $color_background;
+//                 font-family: 'Montserrat';
+//             }
 
-            .line {
-                opacity: 0.3;
-                background-color: $color_background;
-            }
+//             .line {
+//                 opacity: 0.3;
+//                 background-color: $color_background;
+//             }
 
-            h5 {
-                color: $color_background;
-                font-family: 'Open Sans';
-            }
+//             h5 {
+//                 color: $color_background;
+//                 font-family: 'Open Sans';
+//             }
 
-            h6 {
-                color: $color_background;
-                font-family: 'Montserrat';
-            }
+//             h6 {
+//                 color: $color_background;
+//                 font-family: 'Montserrat';
+//             }
 
-            .icons {
+//             .icons {
 
-                img {
-                    height: 100%;
-                    padding: 10px 11px;
-                    border: 1px rgba($color: $color_background, $alpha: 0.3) solid;
+//                 img {
+//                     height: 100%;
+//                     padding: 10px 11px;
+//                     border: 1px rgba($color: $color_background, $alpha: 0.3) solid;
 
-                    &:first-child {
-                        padding: 12px 11px;
-                    }
-                }
-            }
-        }
+//                     &:first-child {
+//                         padding: 12px 11px;
+//                     }
+//                 }
+//             }
+//         }
 
-        a {
-            border: solid $color_2 2px;
-            background-color: $color_2;
-        }
-    }
-}
+//         a {
+//             border: solid $color_2 2px;
+//             background-color: $color_2;
+//         }
+//     }
+// }
