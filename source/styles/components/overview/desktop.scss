@@ -7,17 +7,19 @@
 
     .sidebar {
         position: absolute;
-        left: 17.2%;
-        width: 23%;
+        left: 40%;
+        width: 346px;
         height: 100%;
+        transform: translateX(-100%);
         background-color: $color_2;
     }
 
     .content {
         position: absolute;
+        width: 60%;
+        height: 100%;
         left: 40.2%;
         width: 59.8%;
-        height: 100%;
         background-color: $color_3;
 
         h1 {

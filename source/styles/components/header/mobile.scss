@@ -6,11 +6,12 @@
     .banner {
         position: relative;
         height: 424px;
+        background-color: $color_background;
 
         .nav {
             position: absolute;
-            left: 13%;
-            width: 75%;
+            left: 8%;
+            width: 85%;
             height: 100%;
             background-color: #FF4242;
 
@@ -69,7 +70,7 @@
                 line-height: 26px;
 
                 span {
-                    font-size: 25px;
+                    font-size: 26px;
                 }
             }
 
@@ -126,9 +127,15 @@
                 left: 50%;
                 transform: translateX(-50%);
 
+                .pic {
+                    height: 42px;
+                    padding-left: 10.5px;
+                    padding-right: 10.5px;
+                }
+
                 img {
-                    height: 100%;
-                    padding: 10px 11px;
+                    height: 42px;
+                    padding: 10px 12px;
                     border: 1px rgba($color: $color_background, $alpha: 0.3) solid;
 
                     &:first-child {
